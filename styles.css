@@ -10,8 +10,7 @@
     background-color: burlywood;
 }
 #fixed-side-bar tr {
-    background-color: rgb(190, 74, 74);
-    
+    background-color: rgb(190, 74, 74);   
 }
 #menu-table-body a {
     text-decoration: none;
@@ -82,7 +81,7 @@ h1 {
     padding: 0;
     margin: 0;
 }
- .indent {
+.indent {
     padding-left: 15px;
  }
  .bold, .boldened p {
@@ -95,7 +94,7 @@ h1 {
     color: rgb(252, 140, 13);
  }
 
-.value-text {
+.value-text-2 {
     max-width: 80%;
     display: inline-block;
 }
