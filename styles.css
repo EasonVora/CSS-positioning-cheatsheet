@@ -1,0 +1,114 @@
+
+ #fixed-side-bar {
+    margin: 40px 10px 20px 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    border: solid;
+    float: right;
+    background-color: burlywood;
+}
+#fixed-side-bar tr {
+    background-color: rgb(190, 74, 74);
+    
+}
+#menu-table-body a {
+    text-decoration: none;
+    color: white;
+}
+#menu-table-body a:hover {
+    font-weight: 700;
+    color: aqua;
+}
+body {
+    background-color: rgb(194, 194, 194);
+}
+main {
+    padding: 0px 0px 0px 0px;
+    margin: 40px 30px 30px 90px;
+    background-color: blanchedalmond;
+    border: solid;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 10px 0 30px 0;
+    text-decoration: underline;
+    background-color: darksalmon;
+}
+#position-summary {
+    padding: 15px;
+    border-bottom: solid;
+    border-width: 2px;
+}
+.position-values {
+    border-bottom: solid;
+    border-width: 1px;
+    background-color: rgb(255, 240, 108);
+    padding: 15px;
+    
+}
+.properties {
+    border-top: solid;
+    background-color: darkseagreen;
+    padding: 15px 20px;
+}
+.h3-title {
+    text-align: center;
+}
+.codeandtext {
+  display: inline;
+  flex-wrap: no-wrap;
+}
+.value-text {
+    max-width: 60%;
+    display: inline-block;
+}
+.code-example {
+    display: inline-block;
+    border: solid;
+    padding: 10px 10px 5px 10px;
+    /* line-height: 5px; */
+    background-color: black;
+    color: rgb(255, 248, 240);
+    font-family: "IBM Plex Mono", "Roboto Mono";
+    font-size: small;
+}
+.code {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+ .indent {
+    padding-left: 15px;
+ }
+ .bold, .boldened p {
+    display: inline-block;
+    margin: 0;
+ }
+.value-text a {
+    text-decoration: none;
+}
+.value-text a:hover {
+    color:aqua;
+    font-weight: bold;
+}
+
+.offset-table {
+    margin-top: 20px;
+
+}
+.offset-table tr {
+    text-align: center;  
+}
+ td {
+    border: solid 1px;
+    padding: 5px;
+ }
+ .bold {
+    display: inline;
+    font-weight: 900;
+    color: rgb(252, 140, 13);
+ }
