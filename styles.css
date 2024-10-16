@@ -98,10 +98,10 @@ h1 {
     max-width: 80%;
     display: inline-block;
 }
-.value-text a {
+.value-text a, .value-text-2 a {
     text-decoration: none;
 }
-.value-text a:hover {
+.value-text a:hover, .value-text-2 a:hover {
     color:aqua;
     font-weight: bold;
 }
