@@ -21,6 +21,7 @@
     font-weight: 700;
     color: aqua;
 }
+
 body {
     background-color: rgb(194, 194, 194);
 }
@@ -55,22 +56,22 @@ h1 {
     background-color: darkseagreen;
     padding: 15px 20px;
 }
+
 .h3-title {
     text-align: center;
 }
-.codeandtext {
-  display: inline;
-  flex-wrap: no-wrap;
-}
-.value-text {
-    max-width: 60%;
+.codeandtext .value-text {
     display: inline-block;
+    text-align: left;
+    max-width: 60%;
+    min-width: 60%;
+    margin: auto;
 }
 .code-example {
     display: inline-block;
     border: solid;
-    padding: 10px 10px 5px 10px;
-    /* line-height: 5px; */
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
     background-color: black;
     color: rgb(255, 248, 240);
     font-family: "IBM Plex Mono", "Roboto Mono";
@@ -88,6 +89,16 @@ h1 {
     display: inline-block;
     margin: 0;
  }
+  .bold {
+    display: inline;
+    font-weight: 900;
+    color: rgb(252, 140, 13);
+ }
+
+.value-text {
+    max-width: 80%;
+    display: inline-block;
+}
 .value-text a {
     text-decoration: none;
 }
@@ -106,9 +117,4 @@ h1 {
  td {
     border: solid 1px;
     padding: 5px;
- }
- .bold {
-    display: inline;
-    font-weight: 900;
-    color: rgb(252, 140, 13);
  }

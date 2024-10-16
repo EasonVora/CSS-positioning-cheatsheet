@@ -49,59 +49,54 @@
   <main>
     <h1>CSS Position Properties</h1>
     <article>
-        <section id="position-summary">
+        <section id="position-summary"> <!-- Position Summary -->
             <h2 id="position">Position Property Summary</h2>
             <p>In CSS, the <em>position</em> property is a tool that determines how and an element is placed on a webpage. By specifying the elements position in regards to other elements and/or the browser window, it helps to control the layout and arrangement of elements. Understanding how to implement the <em>position</em> property can imporve the ability to build visually attractive, organized web designs</p>
         </section>
 
-        <section class="position-values">
+        <section class="position-values"> <!-- Static -->
+            <h3 id="static" class="h3-title">Static Value</h3>
             <div class="codeandtext">
-                <h3 id="static" class="h3-title">Static Value</h3>
                 <p class="value-text">The static position specifies that an HTML element is set to the default position through CSS.</p>
-
                 <section class="code-example">
                     <p class="code">* &lbrace;</p>
-                    <div class="indent code boldened"><p>position: </p><div class="bold">static;</div></div>
+                    <div class="indent code boldened"><p>position: </p><div class="bold"> static;</div></div>
                     <p class="code">&rbrace;</p>
                 </section>
             </div>
             <p class="value-text">It cannot be adjusted by using <a href="#offsets">offset properties</a>, but can interact with other positioning properties. Static elements appear in the order they are in on the HTML document. Additionally, static elements static elements will effect overlapping elements, and push down elements that are after it.</p>
         </section>
 
-        <section class="position-values">
+        <section class="position-values"> <!-- Relative -->
+            <h3 id="relative" class="h3-title"> The Relative Value</h3>
             <div class="codeandtext">
-                <h3 id="relative" class="h3-title"> The Relative Value</h3>
                 <p class="value-text">The relative position uses offset properties to move its position relative to it's default position.</p>
-
                 <section class="code-example">
                     <p class="code">* &lbrace;</p>
-                    <div class="indent code boldened"><p>position: </p><div class="bold">relative;</div></div>
+                    <div class="indent code boldened"><p>position: </p><div class="bold"> relative;</div></div>
                     <p class="code">&rbrace;</p>
                 </section>
             </div>
             <p class="value-text">Without offset properties, the position is static by default. When <a href="#offsets">offset properties</a> are used, the element will move without affecting surrounding elements. Use the <a href="#z-index">z-index</a> to adjust the stacking order.</p>
         </section>    
 
-        <section class="position-values">
+        <section class="position-values"> <!-- Absolute -->
+            <h3 id="absolute" class="h3-title">The Absolute Value</h3>
             <div class="codeandtext">
-                <h3 id="absolute" class="h3-title">The Absolute Value</h3>
                 <p class="value-text">Absolute elements are ignored by other elements. It is positioned relative to it's nearest positioned ancestor, or alternatively to it's initial containing block.</p>
-
-                <section class="code-example">
+                <section class="code-example"> 
                     <p class="code">* &lbrace;</p>
-                    <div class="indent code boldened"><p>position: </p><div class="bold">absolute;</div></div>
+                    <div class="indent code boldened"><p>position: </p><div class="bold"> absolute;</div></div>
                     <p class="code">&rbrace;</p>
                 </section>
             </div>
-
             <p class="value-text">An absolute element can be adjusted with <a href="#offsets">offset properties</a> and by the <a href="#z-index">z-index</a>.</p>
         </section>
 
-        <section class="position-values">
+        <section class="position-values"> <!-- Fixed -->
+            <h3 id="fixed" class="h3-title">The Fixed Value</h3>
             <div class="codeandtext">
-                <h3 id="fixed" class="h3-title">The Fixed Value</h3>
                 <p class="value-text">A fixed element will stay in the same place on the web page view port. It will stay fixed in place as the user scrolls throught the webpage.</p>
-
                 <section class="code-example">
                     <p class="code">* &lbrace;</p>
                     <div class="indent code boldened">
@@ -116,11 +111,10 @@
             <p class="value-text">Fixed elements and be also be adjusted using <a href="#offsets">offset properties</a> and by the <a href="#z-index">z-index</a>.</p></p>
         </section>
 
-        <section class="position-values">
+        <section class="position-values"> <!-- Sticky -->
+            <h3 id="sticky" class="h3-title">The Sticky Value</h3>
             <div class="codeandtext">
-                <h3 id="sticky" class="h3-title">The Sticky Value</h3>
                 <p class="value-text">Sticky elements toggle between a fixed position and a relative position. The sticky elements stick to a specified position until the user scrolls past the defined scroll point using <a href="#offsets">offset properties</a>.</p>
-
                 <section class="code-example">
                     <p class="code">* &lbrace;</p>
                     <div class="indent code boldened">
@@ -134,12 +128,10 @@
             </div>
             <p class="value-text">Sticky elements can also be adjusted using the <a href="#z-index">z-index</a>.</p>
         </section>
-        <section class="offset-property properties">
+        <section class="offset-property properties"> <!-- Offsets -->
             <h3 id="offsets" class="h3-title">The Offsets Property</h3>
             <div class="codeandtext">
-                
                 <p class="value-text">Offset properties in CSS are used to determine the position of elements that are set with, <a href="#relative">relative,</a> <a href="#absolute">absolute,</a> <a href="#fixed">fixed,</a> or <a href="#sticky">sticky</a> positioning. They enable you to specify how far an element should be moved from its original location or from the edges of its containing block.</p>
-
                 <section class="code-example">
                     <p class="code">* &lbrace;</p>
                     <p class="indent code">position: relative;</p>
@@ -147,7 +139,6 @@
                         <div class="bold">top:</div>
                         <p> 20px;</p>
                     </div>
-                    <!-- <br><br><br> -->
                     <div class="indent code boldened">
                         <div class="bold">left:</div>
                         <p>  30px;</p>
@@ -155,7 +146,6 @@
                     <p class="code">&rbrace;</p>
                 </section>
             </div>
-
             <table class="offset-table">
                 <thead>
                     <tr>
@@ -185,20 +175,19 @@
                     </tr>
                 </tbody>
             </table>
-            </p>
         </section>
+
         <section class="zindex-property properties">
             <h3 id="z-index" class="h3-title">The Z-Index Property</h3>
-            <p class="value-text">The z-index determines vertical stacking order of elements that overlap each other. Higher values appear in front of elements with lower numbers. The value for the z-index can be a negative number as well.</p>
-
-            <section class="code-example">
-                <p class="code">* &lbrace;</p>
-                <p class="indent code">position: relative;</p>
-                <div class="indent code boldened"><div class="bold">z-index:</div><p> 1000;</p></div>
-                <p class="code">&rbrace;</p>
-            </section>
-
-            <p class="value-text"></p>
+            <div class="codeandtext">
+                <p class="value-text">The z-index determines vertical stacking order of elements that overlap each other. Higher values appear in front of elements with lower numbers. The value for the z-index can be a negative number as well.</p>
+                <section class="code-example">
+                    <p class="code">* &lbrace;</p>
+                    <p class="indent code">position: relative;</p>
+                    <div class="indent code boldened"><div class="bold">z-index: </div><p> 1000;</p></div>
+                    <p class="code">&rbrace;</p>
+                </section>
+            </div>
         </section>
     </article>
   </main>
