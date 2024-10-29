@@ -6,28 +6,31 @@
     top: 0;
     z-index: 1000;
     border: solid;
-    float: right;
-    background-color: burlywood;
+    background-color: #ffebcd;
 }
 #fixed-side-bar tr {
-    background-color: rgb(190, 74, 74);   
+    background-color: #e9967a;   
+}
+#menu-table-head {
+    color: #001e4b;
 }
 #menu-table-body a {
     text-decoration: none;
-    color: white;
+    color: #000000;
+    font-weight: 700;
 }
 #menu-table-body a:hover {
     font-weight: 700;
-    color: aqua;
+    color: #00ffff;
 }
 
 body {
-    background-color: rgb(194, 194, 194);
+    background-color: #c2c2c2;
 }
 main {
     padding: 0px 0px 0px 0px;
     margin: 40px 30px 30px 90px;
-    background-color: blanchedalmond;
+    background-color: #ffebcd;
     border: solid;
 }
 
@@ -36,7 +39,8 @@ h1 {
     margin: 0 0 30px 0;
     padding: 10px 0 30px 0;
     text-decoration: underline;
-    background-color: darksalmon;
+    background-color: #001e4b;
+    color: #ffebcd;
 }
 #position-summary {
     padding: 15px;
@@ -46,13 +50,13 @@ h1 {
 .position-values {
     border-bottom: solid;
     border-width: 1px;
-    background-color: rgb(255, 240, 108);
+    background-color: #fff06c;
     padding: 15px;
     
 }
 .properties {
     border-top: solid;
-    background-color: darkseagreen;
+    background-color: #8fbc8f;
     padding: 15px 20px;
 }
 
@@ -72,7 +76,7 @@ h1 {
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
     background-color: black;
-    color: rgb(255, 248, 240);
+    color: #fff8f0;
     font-family: "IBM Plex Mono", "Roboto Mono";
     font-size: small;
 }
@@ -91,7 +95,7 @@ h1 {
   .bold {
     display: inline;
     font-weight: 900;
-    color: rgb(252, 140, 13);
+    color: #fc8c0d;
  }
 
 .value-text-2 {
@@ -102,7 +106,7 @@ h1 {
     text-decoration: none;
 }
 .value-text a:hover, .value-text-2 a:hover {
-    color:aqua;
+    color:#00ffff;
     font-weight: bold;
 }
 
